@@ -1,0 +1,343 @@
+{
+  "schema_version": 1,
+  "status": "approved by Jon 2026-07-07 (session review gate)",
+  "last_updated": "2026-07-07T12:00:00+02:00",
+  "areas": [
+    {
+      "id": "area_table_mountain",
+      "name": "Table Mountain",
+      "advice": "Recorded park crime is well down in 2026, but hike the front-face trails in groups — most past incidents cluster around quiet early-morning hours.",
+      "advice_updated": "2026-07-07T12:00:00+02:00",
+      "center": {
+        "lat": -33.9628,
+        "lng": 18.4098
+      },
+      "elevation_m": 1050
+    },
+    {
+      "id": "area_lions_head",
+      "name": "Lion's Head",
+      "advice": "Busy and sociable in daylight; for sunrise or sunset go up with company and head down before dark.",
+      "advice_updated": "2026-07-07T12:00:00+02:00",
+      "center": {
+        "lat": -33.935,
+        "lng": 18.3891
+      },
+      "elevation_m": 669
+    },
+    {
+      "id": "area_signal_hill",
+      "name": "Signal Hill",
+      "advice": "Crime was reported here in recent weeks — go in a group, stick to the busier summit paths, and check whether the Jeep Track maintenance closure has lifted.",
+      "advice_updated": "2026-07-07T12:00:00+02:00",
+      "center": {
+        "lat": -33.917,
+        "lng": 18.4039
+      },
+      "elevation_m": 350
+    },
+    {
+      "id": "area_newlands",
+      "name": "Newlands Forest",
+      "advice": "A knife-threat was reported in the forest in late June — walk the lower forest in groups and leave nothing visible in your car.",
+      "advice_updated": "2026-07-07T12:00:00+02:00",
+      "center": {
+        "lat": -33.972,
+        "lng": 18.445
+      },
+      "elevation_m": 250
+    }
+  ],
+  "trails": [
+    {
+      "id": "trail_platteklip",
+      "area_id": "area_table_mountain",
+      "name": "Platteklip Gorge",
+      "geometry": "name:Platteklip Gorge",
+      "trailheads": [
+        {
+          "name": "Platteklip start, Tafelberg Rd",
+          "lat": -33.9554,
+          "lng": 18.4032
+        }
+      ]
+    },
+    {
+      "id": "trail_india_venster",
+      "area_id": "area_table_mountain",
+      "name": "India Venster",
+      "geometry": "name:India Venster",
+      "trailheads": [
+        {
+          "name": "Lower cableway station",
+          "lat": -33.9481,
+          "lng": 18.4028
+        }
+      ]
+    },
+    {
+      "id": "trail_kloof_corner",
+      "area_id": "area_table_mountain",
+      "name": "Kloof Corner Ridge",
+      "geometry": "name:Kloof Corner Ridge",
+      "trailheads": [
+        {
+          "name": "Kloof Corner steps, Tafelberg Rd",
+          "lat": -33.9477,
+          "lng": 18.399
+        }
+      ]
+    },
+    {
+      "id": "trail_pipe_track",
+      "area_id": "area_table_mountain",
+      "name": "Pipe Track",
+      "geometry": "name:Pipe Track",
+      "trailheads": [
+        {
+          "name": "Kloof Nek",
+          "lat": -33.945,
+          "lng": 18.3993
+        }
+      ]
+    },
+    {
+      "id": "trail_kasteelspoort",
+      "area_id": "area_table_mountain",
+      "name": "Kasteelspoort",
+      "geometry": "name:Kasteelspoort Path",
+      "trailheads": [
+        {
+          "name": "Via Pipe Track (Theresa Ave access)",
+          "lat": -33.9666,
+          "lng": 18.3844
+        }
+      ]
+    },
+    {
+      "id": "trail_skeleton_gorge",
+      "area_id": "area_table_mountain",
+      "name": "Skeleton Gorge (Smuts Track)",
+      "geometry": "name:Skeleton Gorge / Smuts Track",
+      "trailheads": [
+        {
+          "name": "Kirstenbosch (top of garden)",
+          "lat": -33.9885,
+          "lng": 18.4325
+        }
+      ]
+    },
+    {
+      "id": "trail_nursery_ravine",
+      "area_id": "area_table_mountain",
+      "name": "Nursery Ravine",
+      "geometry": "name:Nursery Ravine",
+      "trailheads": [
+        {
+          "name": "Kirstenbosch (top of garden)",
+          "lat": -33.9878,
+          "lng": 18.4297
+        }
+      ]
+    },
+    {
+      "id": "trail_lions_head",
+      "area_id": "area_lions_head",
+      "name": "Lion's Head Summit Path",
+      "geometry": "name:Lions Head Path|ids:5946185,5946188,6169716,22571408,59839846,457199223,457199226,457199228,1060562821,1217888418",
+      "trailheads": [
+        {
+          "name": "Lion's Head parking, Signal Hill Rd",
+          "lat": -33.9365,
+          "lng": 18.3951
+        }
+      ]
+    },
+    {
+      "id": "trail_signal_hill_paths",
+      "area_id": "area_signal_hill",
+      "name": "Signal Hill paths",
+      "geometry": "name:Upper Deane Road",
+      "trailheads": [
+        {
+          "name": "Signal Hill summit parking",
+          "lat": -33.921,
+          "lng": 18.3983
+        }
+      ]
+    },
+    {
+      "id": "trail_woodcutters",
+      "area_id": "area_newlands",
+      "name": "Woodcutters Trail",
+      "geometry": "name:Woodcutters Trail",
+      "trailheads": [
+        {
+          "name": "Newlands Forest entrance (M3)",
+          "lat": -33.9712,
+          "lng": 18.4497
+        }
+      ]
+    },
+    {
+      "id": "trail_littlewort",
+      "area_id": "area_newlands",
+      "name": "Littlewort Trail",
+      "geometry": "name:Littlewort Trail",
+      "trailheads": [
+        {
+          "name": "Newlands Forest entrance (M3)",
+          "lat": -33.9712,
+          "lng": 18.4497
+        }
+      ]
+    },
+    {
+      "id": "trail_silvertree",
+      "area_id": "area_newlands",
+      "name": "Silvertree Trail",
+      "geometry": "name:Silvertree Trail",
+      "trailheads": [
+        {
+          "name": "Newlands Forest entrance (M3)",
+          "lat": -33.9712,
+          "lng": 18.4497
+        }
+      ]
+    },
+    {
+      "id": "trail_fernwood",
+      "area_id": "area_newlands",
+      "name": "Fernwood Track",
+      "geometry": "name:Fernwood Track",
+      "trailheads": [
+        {
+          "name": "Newlands Forest entrance (M3)",
+          "lat": -33.9712,
+          "lng": 18.4497
+        }
+      ]
+    },
+    {
+      "id": "trail_newlands_ravine",
+      "area_id": "area_newlands",
+      "name": "Newlands Ravine",
+      "geometry": "name:Newlands Ravine",
+      "trailheads": [
+        {
+          "name": "Via Newlands Forest contour",
+          "lat": -33.9619,
+          "lng": 18.4344
+        }
+      ]
+    }
+  ],
+  "parking": [
+    {
+      "id": "park_platteklip_roadside",
+      "area_id": "area_table_mountain",
+      "lat": -33.9554,
+      "lng": 18.4032,
+      "risk": "elevated",
+      "note": "Roadside bays with a smash-and-grab history — take everything with you, leave the car visibly empty."
+    },
+    {
+      "id": "park_cableway",
+      "area_id": "area_table_mountain",
+      "lat": -33.94774,
+      "lng": 18.40223,
+      "risk": "moderate",
+      "note": "Busier and marshalled in cableway hours; still leave nothing visible."
+    },
+    {
+      "id": "park_kloof_nek",
+      "area_id": "area_table_mountain",
+      "lat": -33.9451,
+      "lng": 18.398,
+      "risk": "moderate",
+      "note": "Fine when busy; gets quiet outside peak hours."
+    },
+    {
+      "id": "park_lions_head",
+      "area_id": "area_lions_head",
+      "lat": -33.93648,
+      "lng": 18.39509,
+      "risk": "moderate",
+      "note": "High turnover on clear days; quiet mid-week mornings — nothing visible in the car."
+    },
+    {
+      "id": "park_signal_hill",
+      "area_id": "area_signal_hill",
+      "lat": -33.91761,
+      "lng": 18.40265,
+      "risk": "moderate",
+      "note": "Sunset crowds attract pickpockets and car-window opportunists."
+    },
+    {
+      "id": "park_newlands",
+      "area_id": "area_newlands",
+      "lat": -33.97107,
+      "lng": 18.44973,
+      "risk": "elevated",
+      "note": "History of remote-jamming theft and vehicle theft — double-check your doors actually locked, take valuables with you."
+    },
+    {
+      "id": "park_deer_park",
+      "area_id": "area_table_mountain",
+      "lat": -33.9451,
+      "lng": 18.41829,
+      "risk": "elevated",
+      "note": "Quiet lot on the Vredehoek fringe — park on busy days only, or start elsewhere."
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc_a558883e-b736-4b25-ba9b-6280ca2a8010",
+      "type": "attempted",
+      "area_id": "area_newlands",
+      "trail_id": null,
+      "location_text": "Newlands Forest (exact spot not published)",
+      "lat": -33.9745,
+      "lng": 18.447,
+      "geo_confidence": "low",
+      "occurred_at": "2026-06-24T12:00:00+02:00",
+      "time_precision": "approx",
+      "summary": "Hiker threatened with a knife in Newlands Forest; the victim was reportedly turned away when trying to report it at SAPS Claremont.",
+      "source_name": "capetrekking.co.za",
+      "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
+      "confidence": "reported"
+    },
+    {
+      "id": "inc_7c1bbd23-174b-4797-a2cc-7675a90a8fd4",
+      "type": "suspicious",
+      "area_id": "area_signal_hill",
+      "trail_id": null,
+      "location_text": "Signal Hill (unspecified locations)",
+      "lat": -33.917,
+      "lng": 18.4039,
+      "geo_confidence": "low",
+      "occurred_at": "2026-06-20T12:00:00+02:00",
+      "time_precision": "approx",
+      "summary": "Unspecified crimes reported around Signal Hill over recent weeks.",
+      "source_name": "capetrekking.co.za",
+      "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
+      "confidence": "reported"
+    },
+    {
+      "id": "inc_caab01fc-0e5f-4a24-8e39-e8df66f4f9db",
+      "type": "mugging",
+      "area_id": "area_lions_head",
+      "trail_id": null,
+      "location_text": "The Glen Trail, between Kloof Nek and Camps Bay",
+      "lat": -33.944,
+      "lng": 18.387,
+      "geo_confidence": "medium",
+      "occurred_at": "2026-01-18T08:00:00+02:00",
+      "time_precision": "day",
+      "summary": "Couple assaulted and robbed by armed men on The Glen trail; one hiker stabbed. Reported to rangers; SANParks issued an alert.",
+      "source_name": "SANParks",
+      "source_url": "https://www.sanparks.org/news/robbery-incident-on-the-glen-trail-table-mountain-national-park",
+      "confidence": "confirmed"
+    }
+  ]
+}

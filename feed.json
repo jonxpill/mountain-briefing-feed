@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-09T13:13:53+02:00",
+ "last_updated": "2026-07-09T13:54:02+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -236,8 +236,8 @@
   {
    "id": "park_platteklip_roadside",
    "area_id": "area_table_mountain",
-   "lat": -33.9554,
-   "lng": 18.4032,
+   "lat": -33.9553,
+   "lng": 18.4155,
    "risk": "elevated",
    "note": "Roadside bays with a smash-and-grab history — take everything with you, leave the car visibly empty."
   },

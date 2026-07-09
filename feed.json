@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-09T13:54:02+02:00",
+ "last_updated": "2026-07-09T14:47:48+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
    "name": "Table Mountain",
-   "advice": "Recorded park crime is well down in 2026, but hike the front-face trails in groups — most past incidents cluster around quiet early-morning hours.",
-   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "advice": "After a stabbing near Tafelberg Road this week, trail groups warn of a possible early spike — go in groups, especially in the quiet early-morning hours, and keep to busier routes.",
+   "advice_updated": "2026-07-09T14:47:48+02:00",
    "center": {
     "lat": -33.9628,
     "lng": 18.4098
@@ -28,8 +28,8 @@
   {
    "id": "area_signal_hill",
    "name": "Signal Hill",
-   "advice": "Crime was reported here in recent weeks — go in a group, stick to the busier summit paths, and check whether the Jeep Track maintenance closure has lifted.",
-   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "advice": "Crime was reported here in recent weeks — go in a group and stick to the busier summit paths; the Lion's Head Jeep Track's autumn maintenance closure had not been confirmed lifted as of 9 Jul.",
+   "advice_updated": "2026-07-09T14:47:48+02:00",
    "center": {
     "lat": -33.917,
     "lng": 18.4039
@@ -291,6 +291,38 @@
   }
  ],
  "incidents": [
+  {
+   "id": "inc_b01e60f7-96d8-45d4-8f2b-526a72fdb5ab",
+   "type": "attempted",
+   "area_id": "area_table_mountain",
+   "trail_id": null,
+   "location_text": "Deadman's Tree area, near Tafelberg Road",
+   "lat": -33.951,
+   "lng": 18.43,
+   "geo_confidence": "low",
+   "occurred_at": "2026-07-08T07:20:00+02:00",
+   "time_precision": "hour",
+   "summary": "Runner stabbed by three men in the Deadman's Tree area near Tafelberg Road; trail groups issued warnings.",
+   "source_name": "Cape Town Etc",
+   "source_url": "https://www.capetownetc.com/news/runner-stabbed-in-table-mountains-deadmans-tree-area-raising-safety-concerns/",
+   "confidence": "confirmed"
+  },
+  {
+   "id": "inc_4d5a3d49-fc54-499c-977b-ab51c47a3228",
+   "type": "smash_grab",
+   "area_id": "area_lions_head",
+   "trail_id": null,
+   "location_text": "Lion's Head parking area, Signal Hill Rd",
+   "lat": -33.93648,
+   "lng": 18.39509,
+   "geo_confidence": "high",
+   "occurred_at": "2026-04-28T12:00:00+02:00",
+   "time_precision": "approx",
+   "summary": "Suspect caught fleeing after stealing from a parked vehicle at the Lion's Head parking area; stolen items recovered.",
+   "source_name": "Cape Town Etc (SANParks enforcement roundup)",
+   "source_url": "https://www.capetownetc.com/news/crackdown-leads-to-multiple-arrests-across-table-mountain-national-park/",
+   "confidence": "confirmed"
+  },
   {
    "id": "inc_a558883e-b736-4b25-ba9b-6280ca2a8010",
    "type": "attempted",

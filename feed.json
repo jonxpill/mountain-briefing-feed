@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-09T14:47:48+02:00",
+ "last_updated": "2026-07-09T15:03:45+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -297,9 +297,9 @@
    "area_id": "area_table_mountain",
    "trail_id": null,
    "location_text": "Deadman's Tree area, near Tafelberg Road",
-   "lat": -33.951,
-   "lng": 18.43,
-   "geo_confidence": "low",
+   "lat": -33.95574,
+   "lng": 18.41877,
+   "geo_confidence": "medium",
    "occurred_at": "2026-07-08T07:20:00+02:00",
    "time_precision": "hour",
    "summary": "Runner stabbed by three men in the Deadman's Tree area near Tafelberg Road; trail groups issued warnings.",

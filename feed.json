@@ -1,343 +1,729 @@
 {
-  "schema_version": 1,
-  "status": "approved by Jon 2026-07-07 (session review gate)",
-  "last_updated": "2026-07-08T11:35:00+02:00",
-  "areas": [
+ "schema_version": 1,
+ "status": "approved by Jon 2026-07-07 (session review gate)",
+ "last_updated": "2026-07-09T13:13:53+02:00",
+ "areas": [
+  {
+   "id": "area_table_mountain",
+   "name": "Table Mountain",
+   "advice": "Recorded park crime is well down in 2026, but hike the front-face trails in groups — most past incidents cluster around quiet early-morning hours.",
+   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "center": {
+    "lat": -33.9628,
+    "lng": 18.4098
+   },
+   "elevation_m": 1050
+  },
+  {
+   "id": "area_lions_head",
+   "name": "Lion's Head",
+   "advice": "Busy and sociable in daylight; for sunrise or sunset go up with company and head down before dark.",
+   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "center": {
+    "lat": -33.935,
+    "lng": 18.3891
+   },
+   "elevation_m": 669
+  },
+  {
+   "id": "area_signal_hill",
+   "name": "Signal Hill",
+   "advice": "Crime was reported here in recent weeks — go in a group, stick to the busier summit paths, and check whether the Jeep Track maintenance closure has lifted.",
+   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "center": {
+    "lat": -33.917,
+    "lng": 18.4039
+   },
+   "elevation_m": 350
+  },
+  {
+   "id": "area_newlands",
+   "name": "Newlands Forest",
+   "advice": "A knife-threat was reported in the forest in late June — walk the lower forest in groups and leave nothing visible in your car.",
+   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "center": {
+    "lat": -33.972,
+    "lng": 18.445
+   },
+   "elevation_m": 250
+  }
+ ],
+ "trails": [
+  {
+   "id": "trail_platteklip",
+   "area_id": "area_table_mountain",
+   "name": "Platteklip Gorge",
+   "geometry": "name:Platteklip Gorge",
+   "trailheads": [
     {
-      "id": "area_table_mountain",
-      "name": "Table Mountain",
-      "advice": "Recorded park crime is well down in 2026, but hike the front-face trails in groups — most past incidents cluster around quiet early-morning hours.",
-      "advice_updated": "2026-07-07T12:00:00+02:00",
-      "center": {
-        "lat": -33.9628,
-        "lng": 18.4098
-      },
-      "elevation_m": 1050
-    },
-    {
-      "id": "area_lions_head",
-      "name": "Lion's Head",
-      "advice": "Busy and sociable in daylight; for sunrise or sunset go up with company and head down before dark.",
-      "advice_updated": "2026-07-07T12:00:00+02:00",
-      "center": {
-        "lat": -33.935,
-        "lng": 18.3891
-      },
-      "elevation_m": 669
-    },
-    {
-      "id": "area_signal_hill",
-      "name": "Signal Hill",
-      "advice": "Crime was reported here in recent weeks — go in a group, stick to the busier summit paths, and check whether the Jeep Track maintenance closure has lifted.",
-      "advice_updated": "2026-07-07T12:00:00+02:00",
-      "center": {
-        "lat": -33.917,
-        "lng": 18.4039
-      },
-      "elevation_m": 350
-    },
-    {
-      "id": "area_newlands",
-      "name": "Newlands Forest",
-      "advice": "A knife-threat was reported in the forest in late June — walk the lower forest in groups and leave nothing visible in your car.",
-      "advice_updated": "2026-07-07T12:00:00+02:00",
-      "center": {
-        "lat": -33.972,
-        "lng": 18.445
-      },
-      "elevation_m": 250
+     "name": "Platteklip Gorge trailhead, Tafelberg Rd",
+     "lat": -33.9553,
+     "lng": 18.4158
     }
-  ],
-  "trails": [
+   ]
+  },
+  {
+   "id": "trail_india_venster",
+   "area_id": "area_table_mountain",
+   "name": "India Venster",
+   "geometry": "name:India Venster",
+   "trailheads": [
     {
-      "id": "trail_platteklip",
-      "area_id": "area_table_mountain",
-      "name": "Platteklip Gorge",
-      "geometry": "name:Platteklip Gorge",
-      "trailheads": [
-        {
-          "name": "Platteklip start, Tafelberg Rd",
-          "lat": -33.9554,
-          "lng": 18.4032
-        }
-      ]
-    },
-    {
-      "id": "trail_india_venster",
-      "area_id": "area_table_mountain",
-      "name": "India Venster",
-      "geometry": "name:India Venster",
-      "trailheads": [
-        {
-          "name": "Lower cableway station",
-          "lat": -33.9481,
-          "lng": 18.4028
-        }
-      ]
-    },
-    {
-      "id": "trail_kloof_corner",
-      "area_id": "area_table_mountain",
-      "name": "Kloof Corner Ridge",
-      "geometry": "name:Kloof Corner Ridge",
-      "trailheads": [
-        {
-          "name": "Kloof Corner steps, Tafelberg Rd",
-          "lat": -33.9477,
-          "lng": 18.399
-        }
-      ]
-    },
-    {
-      "id": "trail_pipe_track",
-      "area_id": "area_table_mountain",
-      "name": "Pipe Track",
-      "geometry": "name:Pipe Track",
-      "trailheads": [
-        {
-          "name": "Kloof Nek",
-          "lat": -33.945,
-          "lng": 18.3993
-        }
-      ]
-    },
-    {
-      "id": "trail_kasteelspoort",
-      "area_id": "area_table_mountain",
-      "name": "Kasteelspoort",
-      "geometry": "name:Kasteelspoort Path",
-      "trailheads": [
-        {
-          "name": "Via Pipe Track (Theresa Ave access)",
-          "lat": -33.9666,
-          "lng": 18.3844
-        }
-      ]
-    },
-    {
-      "id": "trail_skeleton_gorge",
-      "area_id": "area_table_mountain",
-      "name": "Skeleton Gorge (Smuts Track)",
-      "geometry": "name:Skeleton Gorge / Smuts Track",
-      "trailheads": [
-        {
-          "name": "Kirstenbosch (top of garden)",
-          "lat": -33.9885,
-          "lng": 18.4325
-        }
-      ]
-    },
-    {
-      "id": "trail_nursery_ravine",
-      "area_id": "area_table_mountain",
-      "name": "Nursery Ravine",
-      "geometry": "name:Nursery Ravine",
-      "trailheads": [
-        {
-          "name": "Kirstenbosch (top of garden)",
-          "lat": -33.9878,
-          "lng": 18.4297
-        }
-      ]
-    },
-    {
-      "id": "trail_lions_head",
-      "area_id": "area_lions_head",
-      "name": "Lion's Head Summit Path",
-      "geometry": "name:Lions Head Path|ids:5946185,5946188,6169716,22571408,59839846,457199223,457199226,457199228,1060562821,1217888418",
-      "trailheads": [
-        {
-          "name": "Lion's Head parking, Signal Hill Rd",
-          "lat": -33.9365,
-          "lng": 18.3951
-        }
-      ]
-    },
-    {
-      "id": "trail_signal_hill_paths",
-      "area_id": "area_signal_hill",
-      "name": "Signal Hill paths",
-      "geometry": "name:Upper Deane Road",
-      "trailheads": [
-        {
-          "name": "Signal Hill summit parking",
-          "lat": -33.921,
-          "lng": 18.3983
-        }
-      ]
-    },
-    {
-      "id": "trail_woodcutters",
-      "area_id": "area_newlands",
-      "name": "Woodcutters Trail",
-      "geometry": "name:Woodcutters Trail",
-      "trailheads": [
-        {
-          "name": "Newlands Forest entrance (M3)",
-          "lat": -33.9712,
-          "lng": 18.4497
-        }
-      ]
-    },
-    {
-      "id": "trail_littlewort",
-      "area_id": "area_newlands",
-      "name": "Littlewort Trail",
-      "geometry": "name:Littlewort Trail",
-      "trailheads": [
-        {
-          "name": "Newlands Forest entrance (M3)",
-          "lat": -33.9712,
-          "lng": 18.4497
-        }
-      ]
-    },
-    {
-      "id": "trail_silvertree",
-      "area_id": "area_newlands",
-      "name": "Silvertree Trail",
-      "geometry": "name:Silvertree Trail",
-      "trailheads": [
-        {
-          "name": "Newlands Forest entrance (M3)",
-          "lat": -33.9712,
-          "lng": 18.4497
-        }
-      ]
-    },
-    {
-      "id": "trail_fernwood",
-      "area_id": "area_newlands",
-      "name": "Fernwood Track",
-      "geometry": "name:Fernwood Track",
-      "trailheads": [
-        {
-          "name": "Newlands Forest entrance (M3)",
-          "lat": -33.9712,
-          "lng": 18.4497
-        }
-      ]
-    },
-    {
-      "id": "trail_newlands_ravine",
-      "area_id": "area_newlands",
-      "name": "Newlands Ravine",
-      "geometry": "name:Newlands Ravine",
-      "trailheads": [
-        {
-          "name": "Via Newlands Forest contour",
-          "lat": -33.9619,
-          "lng": 18.4344
-        }
-      ]
+     "name": "Lower cableway station",
+     "lat": -33.9481,
+     "lng": 18.4028
     }
-  ],
-  "parking": [
+   ]
+  },
+  {
+   "id": "trail_kloof_corner",
+   "area_id": "area_table_mountain",
+   "name": "Kloof Corner Ridge",
+   "geometry": "name:Kloof Corner Ridge",
+   "trailheads": [
     {
-      "id": "park_platteklip_roadside",
-      "area_id": "area_table_mountain",
-      "lat": -33.9554,
-      "lng": 18.4032,
-      "risk": "elevated",
-      "note": "Roadside bays with a smash-and-grab history — take everything with you, leave the car visibly empty."
-    },
-    {
-      "id": "park_cableway",
-      "area_id": "area_table_mountain",
-      "lat": -33.94774,
-      "lng": 18.40223,
-      "risk": "moderate",
-      "note": "Busier and marshalled in cableway hours; still leave nothing visible."
-    },
-    {
-      "id": "park_kloof_nek",
-      "area_id": "area_table_mountain",
-      "lat": -33.9451,
-      "lng": 18.398,
-      "risk": "moderate",
-      "note": "Fine when busy; gets quiet outside peak hours."
-    },
-    {
-      "id": "park_lions_head",
-      "area_id": "area_lions_head",
-      "lat": -33.93648,
-      "lng": 18.39509,
-      "risk": "moderate",
-      "note": "High turnover on clear days; quiet mid-week mornings — nothing visible in the car."
-    },
-    {
-      "id": "park_signal_hill",
-      "area_id": "area_signal_hill",
-      "lat": -33.91761,
-      "lng": 18.40265,
-      "risk": "moderate",
-      "note": "Sunset crowds attract pickpockets and car-window opportunists."
-    },
-    {
-      "id": "park_newlands",
-      "area_id": "area_newlands",
-      "lat": -33.97107,
-      "lng": 18.44973,
-      "risk": "elevated",
-      "note": "History of remote-jamming theft and vehicle theft — double-check your doors actually locked, take valuables with you."
-    },
-    {
-      "id": "park_deer_park",
-      "area_id": "area_table_mountain",
-      "lat": -33.9451,
-      "lng": 18.41829,
-      "risk": "elevated",
-      "note": "Quiet lot on the Vredehoek fringe — park on busy days only, or start elsewhere."
+     "name": "Kloof Corner steps, Tafelberg Rd",
+     "lat": -33.9477,
+     "lng": 18.399
     }
-  ],
-  "incidents": [
+   ]
+  },
+  {
+   "id": "trail_pipe_track",
+   "area_id": "area_table_mountain",
+   "name": "Pipe Track",
+   "geometry": "name:Pipe Track",
+   "trailheads": [
     {
-      "id": "inc_a558883e-b736-4b25-ba9b-6280ca2a8010",
-      "type": "attempted",
-      "area_id": "area_newlands",
-      "trail_id": null,
-      "location_text": "Newlands Forest (exact spot not published)",
-      "lat": -33.9745,
-      "lng": 18.447,
-      "geo_confidence": "low",
-      "occurred_at": "2026-06-24T12:00:00+02:00",
-      "time_precision": "approx",
-      "summary": "Hiker threatened with a knife in Newlands Forest; the victim was reportedly turned away when trying to report it at SAPS Claremont.",
-      "source_name": "capetrekking.co.za",
-      "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
-      "confidence": "reported"
-    },
-    {
-      "id": "inc_7c1bbd23-174b-4797-a2cc-7675a90a8fd4",
-      "type": "suspicious",
-      "area_id": "area_signal_hill",
-      "trail_id": null,
-      "location_text": "Signal Hill (unspecified locations)",
-      "lat": -33.917,
-      "lng": 18.4039,
-      "geo_confidence": "low",
-      "occurred_at": "2026-06-20T12:00:00+02:00",
-      "time_precision": "approx",
-      "summary": "Unspecified crimes reported around Signal Hill over recent weeks.",
-      "source_name": "capetrekking.co.za",
-      "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
-      "confidence": "reported"
-    },
-    {
-      "id": "inc_caab01fc-0e5f-4a24-8e39-e8df66f4f9db",
-      "type": "mugging",
-      "area_id": "area_lions_head",
-      "trail_id": null,
-      "location_text": "The Glen Trail, between Kloof Nek and Camps Bay",
-      "lat": -33.944,
-      "lng": 18.387,
-      "geo_confidence": "medium",
-      "occurred_at": "2026-01-18T08:00:00+02:00",
-      "time_precision": "day",
-      "summary": "Couple assaulted and robbed by armed men on The Glen trail; one hiker stabbed. Reported to rangers; SANParks issued an alert.",
-      "source_name": "SANParks",
-      "source_url": "https://www.sanparks.org/news/robbery-incident-on-the-glen-trail-table-mountain-national-park",
-      "confidence": "confirmed"
+     "name": "Kloof Nek",
+     "lat": -33.945,
+     "lng": 18.3993
     }
-  ]
+   ]
+  },
+  {
+   "id": "trail_kasteelspoort",
+   "area_id": "area_table_mountain",
+   "name": "Kasteelspoort",
+   "geometry": "name:Kasteelspoort Path",
+   "trailheads": [
+    {
+     "name": "Via Pipe Track (Theresa Ave access)",
+     "lat": -33.9666,
+     "lng": 18.3844
+    }
+   ]
+  },
+  {
+   "id": "trail_skeleton_gorge",
+   "area_id": "area_table_mountain",
+   "name": "Skeleton Gorge (Smuts Track)",
+   "geometry": "name:Skeleton Gorge / Smuts Track",
+   "trailheads": [
+    {
+     "name": "Kirstenbosch (top of garden)",
+     "lat": -33.9885,
+     "lng": 18.4325
+    }
+   ]
+  },
+  {
+   "id": "trail_nursery_ravine",
+   "area_id": "area_table_mountain",
+   "name": "Nursery Ravine",
+   "geometry": "name:Nursery Ravine",
+   "trailheads": [
+    {
+     "name": "Kirstenbosch (top of garden)",
+     "lat": -33.9878,
+     "lng": 18.4297
+    }
+   ]
+  },
+  {
+   "id": "trail_lions_head",
+   "area_id": "area_lions_head",
+   "name": "Lion's Head Summit Path",
+   "geometry": "name:Lions Head Path|ids:5946185,5946188,6169716,22571408,59839846,457199223,457199226,457199228,1060562821,1217888418",
+   "trailheads": [
+    {
+     "name": "Lion's Head parking, Signal Hill Rd",
+     "lat": -33.9365,
+     "lng": 18.3951
+    }
+   ]
+  },
+  {
+   "id": "trail_signal_hill_paths",
+   "area_id": "area_signal_hill",
+   "name": "Signal Hill paths",
+   "geometry": "name:Upper Deane Road",
+   "trailheads": [
+    {
+     "name": "Signal Hill summit parking",
+     "lat": -33.921,
+     "lng": 18.3983
+    }
+   ]
+  },
+  {
+   "id": "trail_woodcutters",
+   "area_id": "area_newlands",
+   "name": "Woodcutters Trail",
+   "geometry": "name:Woodcutters Trail",
+   "trailheads": [
+    {
+     "name": "Newlands Forest entrance (M3)",
+     "lat": -33.9712,
+     "lng": 18.4497
+    }
+   ]
+  },
+  {
+   "id": "trail_littlewort",
+   "area_id": "area_newlands",
+   "name": "Littlewort Trail",
+   "geometry": "name:Littlewort Trail",
+   "trailheads": [
+    {
+     "name": "Newlands Forest entrance (M3)",
+     "lat": -33.9712,
+     "lng": 18.4497
+    }
+   ]
+  },
+  {
+   "id": "trail_silvertree",
+   "area_id": "area_newlands",
+   "name": "Silvertree Trail",
+   "geometry": "name:Silvertree Trail",
+   "trailheads": [
+    {
+     "name": "Newlands Forest entrance (M3)",
+     "lat": -33.9712,
+     "lng": 18.4497
+    }
+   ]
+  },
+  {
+   "id": "trail_fernwood",
+   "area_id": "area_newlands",
+   "name": "Fernwood Track",
+   "geometry": "name:Fernwood Track",
+   "trailheads": [
+    {
+     "name": "Newlands Forest entrance (M3)",
+     "lat": -33.9712,
+     "lng": 18.4497
+    }
+   ]
+  },
+  {
+   "id": "trail_newlands_ravine",
+   "area_id": "area_newlands",
+   "name": "Newlands Ravine",
+   "geometry": "name:Newlands Ravine",
+   "trailheads": [
+    {
+     "name": "Via Newlands Forest contour",
+     "lat": -33.9619,
+     "lng": 18.4344
+    }
+   ]
+  }
+ ],
+ "parking": [
+  {
+   "id": "park_platteklip_roadside",
+   "area_id": "area_table_mountain",
+   "lat": -33.9554,
+   "lng": 18.4032,
+   "risk": "elevated",
+   "note": "Roadside bays with a smash-and-grab history — take everything with you, leave the car visibly empty."
+  },
+  {
+   "id": "park_cableway",
+   "area_id": "area_table_mountain",
+   "lat": -33.94774,
+   "lng": 18.40223,
+   "risk": "moderate",
+   "note": "Busier and marshalled in cableway hours; still leave nothing visible."
+  },
+  {
+   "id": "park_kloof_nek",
+   "area_id": "area_table_mountain",
+   "lat": -33.9451,
+   "lng": 18.398,
+   "risk": "moderate",
+   "note": "Fine when busy; gets quiet outside peak hours."
+  },
+  {
+   "id": "park_lions_head",
+   "area_id": "area_lions_head",
+   "lat": -33.93648,
+   "lng": 18.39509,
+   "risk": "moderate",
+   "note": "High turnover on clear days; quiet mid-week mornings — nothing visible in the car."
+  },
+  {
+   "id": "park_signal_hill",
+   "area_id": "area_signal_hill",
+   "lat": -33.91761,
+   "lng": 18.40265,
+   "risk": "moderate",
+   "note": "Sunset crowds attract pickpockets and car-window opportunists."
+  },
+  {
+   "id": "park_newlands",
+   "area_id": "area_newlands",
+   "lat": -33.97107,
+   "lng": 18.44973,
+   "risk": "elevated",
+   "note": "History of remote-jamming theft and vehicle theft — double-check your doors actually locked, take valuables with you."
+  },
+  {
+   "id": "park_deer_park",
+   "area_id": "area_table_mountain",
+   "lat": -33.9451,
+   "lng": 18.41829,
+   "risk": "elevated",
+   "note": "Quiet lot on the Vredehoek fringe — park on busy days only, or start elsewhere."
+  }
+ ],
+ "incidents": [
+  {
+   "id": "inc_a558883e-b736-4b25-ba9b-6280ca2a8010",
+   "type": "attempted",
+   "area_id": "area_newlands",
+   "trail_id": null,
+   "location_text": "Newlands Forest (exact spot not published)",
+   "lat": -33.9745,
+   "lng": 18.447,
+   "geo_confidence": "low",
+   "occurred_at": "2026-06-24T12:00:00+02:00",
+   "time_precision": "approx",
+   "summary": "Hiker threatened with a knife in Newlands Forest; the victim was reportedly turned away when trying to report it at SAPS Claremont.",
+   "source_name": "capetrekking.co.za",
+   "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
+   "confidence": "reported"
+  },
+  {
+   "id": "inc_7c1bbd23-174b-4797-a2cc-7675a90a8fd4",
+   "type": "suspicious",
+   "area_id": "area_signal_hill",
+   "trail_id": null,
+   "location_text": "Signal Hill (unspecified locations)",
+   "lat": -33.917,
+   "lng": 18.4039,
+   "geo_confidence": "low",
+   "occurred_at": "2026-06-20T12:00:00+02:00",
+   "time_precision": "approx",
+   "summary": "Unspecified crimes reported around Signal Hill over recent weeks.",
+   "source_name": "capetrekking.co.za",
+   "source_url": "https://capetrekking.co.za/current-crime-hot-spots-avoid-table-mountain/",
+   "confidence": "reported"
+  },
+  {
+   "id": "inc_caab01fc-0e5f-4a24-8e39-e8df66f4f9db",
+   "type": "mugging",
+   "area_id": "area_lions_head",
+   "trail_id": null,
+   "location_text": "The Glen Trail, between Kloof Nek and Camps Bay",
+   "lat": -33.944,
+   "lng": 18.387,
+   "geo_confidence": "medium",
+   "occurred_at": "2026-01-18T08:00:00+02:00",
+   "time_precision": "day",
+   "summary": "Couple assaulted and robbed by armed men on The Glen trail; one hiker stabbed. Reported to rangers; SANParks issued an alert.",
+   "source_name": "SANParks",
+   "source_url": "https://www.sanparks.org/news/robbery-incident-on-the-glen-trail-table-mountain-national-park",
+   "confidence": "confirmed"
+  }
+ ],
+ "routes": [
+  {
+   "id": "route_platteklip",
+   "name": "Platteklip Gorge",
+   "area_id": "area_table_mountain",
+   "kind": "one_way",
+   "start": {
+    "name": "Platteklip Gorge trailhead, Tafelberg Rd",
+    "lat": -33.95532,
+    "lng": 18.41583
+   },
+   "end": {
+    "name": "Top of Platteklip Gorge",
+    "lat": -33.96194,
+    "lng": 18.40765
+   },
+   "geometry": "name:Platteklip Gorge",
+   "description": "The classic direct ascent — a relentless stone-stepped climb up the gorge to the plateau; descend by cableway.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 1965,
+    "distance_total_m": 1965,
+    "ascent_m": 719,
+    "ascent_total_m": 719,
+    "est_min_lo": 100,
+    "est_min_hi": 130,
+    "elev_max_m": 1063,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hike Table Mountain (Tim Lundy) — Platteklip Gorge route page",
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/platteklip-gorge/"
+  },
+  {
+   "id": "route_platteklip_maclears",
+   "name": "Platteklip Gorge to Maclear's Beacon",
+   "area_id": "area_table_mountain",
+   "kind": "one_way",
+   "start": {
+    "name": "Platteklip Gorge trailhead, Tafelberg Rd",
+    "lat": -33.95532,
+    "lng": 18.41583
+   },
+   "end": {
+    "name": "Maclear's Beacon",
+    "lat": -33.96657,
+    "lng": 18.4251
+   },
+   "geometry": "name:Platteklip Gorge|ids:9000000024,9000000030",
+   "description": "Platteklip's climb, then left across the plateau to the summit beacon at 1086 m.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 3713,
+    "distance_total_m": 3713,
+    "ascent_m": 761,
+    "ascent_total_m": 761,
+    "est_min_lo": 130,
+    "est_min_hi": 170,
+    "elev_max_m": 1079,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Forge (forgesa.com) — Maclears Beacon via Platteklip Gorge route page",
+   "source_url": "https://www.forgesa.com/table-mountain-route/maclears-beacon-via-platteklip-gorge"
+  },
+  {
+   "id": "route_india_venster",
+   "name": "India Venster",
+   "area_id": "area_table_mountain",
+   "kind": "one_way",
+   "start": {
+    "name": "Lower cableway station, Tafelberg Rd",
+    "lat": -33.9481,
+    "lng": 18.4028
+   },
+   "end": {
+    "name": "Plateau top-out at the head of Platteklip Gorge",
+    "lat": -33.96205,
+    "lng": 18.40749
+   },
+   "geometry": "name:India Venster",
+   "description": "The adventurous line under the cableway — chains, staples and real exposure; ascend only, never descend it.",
+   "difficulty": "scramble",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 2257,
+    "distance_total_m": 2257,
+    "ascent_m": 792,
+    "ascent_total_m": 792,
+    "est_min_lo": 115,
+    "est_min_hi": 145,
+    "elev_max_m": 1052,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hike Table Mountain (Tim Lundy) — India Venster route page",
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/india-venster/"
+  },
+  {
+   "id": "route_kasteelspoort",
+   "name": "Kasteelspoort",
+   "area_id": "area_table_mountain",
+   "kind": "one_way",
+   "start": {
+    "name": "Theresa Ave trailhead, Camps Bay",
+    "lat": -33.9666,
+    "lng": 18.3844
+   },
+   "end": {
+    "name": "Top of Kasteelspoort ravine (Back Table)",
+    "lat": -33.9723,
+    "lng": 18.3946
+   },
+   "geometry": "ids:9000000027,9000000028,450420759|name:Kasteelspoort Path",
+   "description": "Twelve Apostles ravine from Theresa Ave via the Pipe Track — rock steps and light scrambling to the Back Table.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 2059,
+    "distance_total_m": 2059,
+    "ascent_m": 567,
+    "ascent_total_m": 567,
+    "est_min_lo": 90,
+    "est_min_hi": 115,
+    "elev_max_m": 737,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hike Table Mountain (Tim Lundy) — Kasteelspoort route page",
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/kasteelspoort-hike/"
+  },
+  {
+   "id": "route_pipe_track",
+   "name": "Pipe Track",
+   "area_id": "area_table_mountain",
+   "kind": "out_and_back",
+   "start": {
+    "name": "Pipe Track start, Kloof Nek",
+    "lat": -33.94224,
+    "lng": 18.39474
+   },
+   "end": {
+    "name": "Track end below Corridor Ravine",
+    "lat": -33.97658,
+    "lng": 18.38399
+   },
+   "geometry": "name:Pipe Track",
+   "description": "A gentle contour walk along the Twelve Apostles flank — little climbing, limited shade.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 4841,
+    "distance_total_m": 9681,
+    "ascent_m": 327,
+    "ascent_total_m": 430,
+    "est_min_lo": 190,
+    "est_min_hi": 245,
+    "elev_max_m": 466,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hike Addicts — The Pipe Track Hiking Route on Table Mountain",
+   "source_url": "https://www.hikeaddicts.com/our-hikes/pipe-track-walk/"
+  },
+  {
+   "id": "route_skeleton_maclears",
+   "name": "Skeleton Gorge to Maclear's Beacon",
+   "area_id": "area_table_mountain",
+   "kind": "one_way",
+   "start": {
+    "name": "Contour Path above Kirstenbosch (Skeleton Gorge gate)",
+    "lat": -33.98246,
+    "lng": 18.42386
+   },
+   "end": {
+    "name": "Maclear's Beacon",
+    "lat": -33.96657,
+    "lng": 18.4251
+   },
+   "geometry": "name:Skeleton Gorge / Smuts Track|ids:27609019,1061802016,9000000031",
+   "description": "Ladders and stream boulders up Skeleton Gorge, then Smuts Track to the beacon; access through Kirstenbosch.",
+   "difficulty": "hard",
+   "difficulty_source": "curated",
+   "stats": {
+    "distance_m": 3041,
+    "distance_total_m": 3041,
+    "ascent_m": 755,
+    "ascent_total_m": 755,
+    "est_min_lo": 120,
+    "est_min_hi": 155,
+    "elev_max_m": 1082,
+    "computed": "2026-07-09"
+   },
+   "source_name": "SANBI Kirstenbosch — Smuts Track up Skeleton Gorge (safety-on-the-mountain page)",
+   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/"
+  },
+  {
+   "id": "route_skeleton_nursery_loop",
+   "name": "Skeleton Gorge / Nursery Ravine loop",
+   "area_id": "area_table_mountain",
+   "kind": "loop",
+   "start": {
+    "name": "Contour Path above Kirstenbosch (Skeleton Gorge gate)",
+    "lat": -33.98246,
+    "lng": 18.42386
+   },
+   "end": {
+    "name": "Contour Path above Kirstenbosch (Skeleton Gorge gate)",
+    "lat": -33.98246,
+    "lng": 18.42386
+   },
+   "geometry": "name:Skeleton Gorge / Smuts Track|ids:9000000007|name:Nursery Ravine|ids:25941580,1422161307",
+   "description": "Up Skeleton, across the Back Table past the dam, down Nursery Ravine — SANBI's two 'safe routes' paired.",
+   "difficulty": "hard",
+   "difficulty_source": "curated",
+   "stats": {
+    "distance_m": 3095,
+    "distance_total_m": 3095,
+    "ascent_m": 478,
+    "ascent_total_m": 478,
+    "est_min_lo": 95,
+    "est_min_hi": 125,
+    "elev_max_m": 749,
+    "computed": "2026-07-09"
+   },
+   "source_name": "SANBI Kirstenbosch — Smuts Track up Skeleton Gorge (safety-on-the-mountain page)",
+   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/"
+  },
+  {
+   "id": "route_lions_head",
+   "name": "Lion's Head Summit Path",
+   "area_id": "area_lions_head",
+   "kind": "out_and_back",
+   "start": {
+    "name": "Lion's Head parking, Signal Hill Rd",
+    "lat": -33.9365,
+    "lng": 18.3951
+   },
+   "end": {
+    "name": "Lion's Head summit",
+    "lat": -33.93505,
+    "lng": 18.38916
+   },
+   "geometry": "ids:5946185,5946188,1217888418,1060562821",
+   "description": "The famous spiral to the summit — ladders, staples and chains near the top; same path down.",
+   "difficulty": "hard",
+   "difficulty_source": "curated",
+   "stats": {
+    "distance_m": 2094,
+    "distance_total_m": 4188,
+    "ascent_m": 338,
+    "ascent_total_m": 346,
+    "est_min_lo": 95,
+    "est_min_hi": 125,
+    "elev_max_m": 623,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hike Table Mountain (Tim Lundy) — Lion's Head",
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/lions-head/"
+  },
+  {
+   "id": "route_signal_hill",
+   "name": "Signal Hill summit walk",
+   "area_id": "area_signal_hill",
+   "kind": "out_and_back",
+   "start": {
+    "name": "Lion's Head parking, Signal Hill Rd (Kloof Nek side)",
+    "lat": -33.9365,
+    "lng": 18.3951
+   },
+   "end": {
+    "name": "Signal Hill summit viewpoint",
+    "lat": -33.921,
+    "lng": 18.3983
+   },
+   "geometry": "ids:9000000002,517596241,9000000005",
+   "description": "An easy ridge stroll from the Lion's Head parking side to the summit viewpoint — no real hiking required.",
+   "difficulty": "easy",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 1847,
+    "distance_total_m": 3694,
+    "ascent_m": 50,
+    "ascent_total_m": 86,
+    "est_min_lo": 65,
+    "est_min_hi": 85,
+    "elev_max_m": 311,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Wander Cape Town — Signal Hill",
+   "source_url": "https://wandercapetown.com/adventures/signal-hill/"
+  },
+  {
+   "id": "route_woodcutters_loop",
+   "name": "Woodcutters Trail loop",
+   "area_id": "area_newlands",
+   "kind": "loop",
+   "start": {
+    "name": "Newlands Forest entrance (M3)",
+    "lat": -33.97145,
+    "lng": 18.4501
+   },
+   "end": {
+    "name": "Newlands Forest entrance (M3)",
+    "lat": -33.97145,
+    "lng": 18.4501
+   },
+   "geometry": "ids:9000000022,69145716,9000000009,9000000012,9000000019,69140298,9000000013,9000000016|name:Woodcutters Trail",
+   "description": "A shaded Newlands Forest circuit — steady climb to Woodcutters Trail, looping back down through the forest.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 5003,
+    "distance_total_m": 5003,
+    "ascent_m": 315,
+    "ascent_total_m": 315,
+    "est_min_lo": 105,
+    "est_min_hi": 140,
+    "elev_max_m": 373,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Hiking in the South — Woodcutters Trail",
+   "source_url": "https://www.hikinginthesouth.co.za/2024/09/Woodcutters%20Trail.html"
+  },
+  {
+   "id": "route_newlands_ravine",
+   "name": "Newlands Ravine",
+   "area_id": "area_newlands",
+   "kind": "one_way",
+   "start": {
+    "name": "Newlands Forest entrance (M3)",
+    "lat": -33.97145,
+    "lng": 18.4501
+   },
+   "end": {
+    "name": "The Saddle (Devil's Peak side)",
+    "lat": -33.95998,
+    "lng": 18.43233
+   },
+   "geometry": "ids:9000000022,69145716,9000000009,9000000012,9000000019,69140298,9000000013,9000000016|name:Woodcutters Trail|name:Newlands Ravine",
+   "description": "Steep shaded switchbacks from Newlands Forest to the Saddle — the easiest eastside way up.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 3564,
+    "distance_total_m": 3564,
+    "ascent_m": 684,
+    "ascent_total_m": 684,
+    "est_min_lo": 120,
+    "est_min_hi": 160,
+    "elev_max_m": 758,
+    "computed": "2026-07-09"
+   },
+   "source_name": "Extra Time Media — Newlands Forest hikes: Newlands Ravine route",
+   "source_url": "https://extratime.media/newlands-forest-hikes-newlands-ravine-route/"
+  },
+  {
+   "id": "route_kloof_corner",
+   "name": "Kloof Corner lookout",
+   "area_id": "area_table_mountain",
+   "kind": "out_and_back",
+   "start": {
+    "name": "Kloof Corner steps, Tafelberg Rd",
+    "lat": -33.94526,
+    "lng": 18.39742
+   },
+   "end": {
+    "name": "Kloof Corner ridge lookout",
+    "lat": -33.94914,
+    "lng": 18.39902
+   },
+   "geometry": "name:Kloof Corner",
+   "description": "Short steep steps to the ridge lookout — a 30-minute sunset classic; stops before the chained scramble.",
+   "difficulty": "moderate",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 900,
+    "distance_total_m": 1800,
+    "ascent_m": 182,
+    "ascent_total_m": 182,
+    "est_min_lo": 45,
+    "est_min_hi": 60,
+    "elev_max_m": 507,
+    "computed": "2026-07-09"
+   },
+   "source_name": "The Hiking Chronicles — Kloof Corner Hike from Tafelberg Road",
+   "source_url": "https://www.thehikingchronicles.com/hiking-trails/kloof-corner-hike-from-tafelberg-road"
+  }
+ ]
 }

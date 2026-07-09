@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-09T15:03:45+02:00",
+ "last_updated": "2026-07-09T16:48:00+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -79,12 +79,12 @@
    "id": "trail_kloof_corner",
    "area_id": "area_table_mountain",
    "name": "Kloof Corner Ridge",
-   "geometry": "name:Kloof Corner Ridge",
+   "geometry": "name:Kloof Corner|name:Kloof Corner Ridge",
    "trailheads": [
     {
      "name": "Kloof Corner steps, Tafelberg Rd",
-     "lat": -33.9477,
-     "lng": 18.399
+     "lat": -33.94526,
+     "lng": 18.39742
     }
    ]
   },
@@ -96,8 +96,8 @@
    "trailheads": [
     {
      "name": "Kloof Nek",
-     "lat": -33.945,
-     "lng": 18.3993
+     "lat": -33.94224,
+     "lng": 18.39474
     }
    ]
   },
@@ -157,7 +157,7 @@
    "id": "trail_signal_hill_paths",
    "area_id": "area_signal_hill",
    "name": "Signal Hill paths",
-   "geometry": "name:Upper Deane Road",
+   "geometry": "ids:9000000002,517596241,9000000005",
    "trailheads": [
     {
      "name": "Signal Hill summit parking",

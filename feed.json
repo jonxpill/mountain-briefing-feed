@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-09T16:48:00+02:00",
+ "last_updated": "2026-07-17T12:16:23+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
    "name": "Table Mountain",
-   "advice": "After a stabbing near Tafelberg Road this week, trail groups warn of a possible early spike — go in groups, especially in the quiet early-morning hours, and keep to busier routes.",
-   "advice_updated": "2026-07-09T14:47:48+02:00",
+   "advice": "Two stabbings on the lower Deer Park–Tafelberg Road slopes within a week (8 and ~13 Jul) — avoid the quieter lower-slope paths alone, especially early morning; patrols have been increased.",
+   "advice_updated": "2026-07-17T12:16:23+02:00",
    "center": {
     "lat": -33.9628,
     "lng": 18.4098
@@ -292,6 +292,22 @@
  ],
  "incidents": [
   {
+   "id": "inc_371dc150-a75f-4d33-8277-406bd41d2cbd",
+   "type": "mugging",
+   "area_id": "area_table_mountain",
+   "trail_id": null,
+   "location_text": "Near the Platteklip Wash Houses, Deer Park area",
+   "lat": -33.94644,
+   "lng": 18.41798,
+   "geo_confidence": "medium",
+   "occurred_at": "2026-07-13T12:00:00+02:00",
+   "time_precision": "approx",
+   "summary": "Man mugged and stabbed near the Platteklip Wash Houses — the second stabbing on the lower slopes within a week; patrols increased.",
+   "source_name": "The South African",
+   "source_url": "https://www.thesouthafrican.com/lifestyle/popular-table-mountain-hiking-route-hit-by-second-stabbing-in-days/",
+   "confidence": "confirmed"
+  },
+  {
    "id": "inc_b01e60f7-96d8-45d4-8f2b-526a72fdb5ab",
    "type": "attempted",
    "area_id": "area_table_mountain",
@@ -302,7 +318,7 @@
    "geo_confidence": "medium",
    "occurred_at": "2026-07-08T07:20:00+02:00",
    "time_precision": "hour",
-   "summary": "Runner stabbed by three men in the Deadman's Tree area near Tafelberg Road; trail groups issued warnings.",
+   "summary": "Runner stabbed in the forearm by three armed men near Deadman's Tree; he fought them off and nothing was taken. SAPS case opened.",
    "source_name": "Cape Town Etc",
    "source_url": "https://www.capetownetc.com/news/runner-stabbed-in-table-mountains-deadmans-tree-area-raising-safety-concerns/",
    "confidence": "confirmed"

@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-17T12:16:23+02:00",
+ "last_updated": "2026-07-17T15:13:13+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -419,7 +419,13 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hike Table Mountain (Tim Lundy) — Platteklip Gorge route page",
-   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/platteklip-gorge/"
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/platteklip-gorge/",
+   "advice": [
+    "Carry at least two litres of water for the climb.",
+    "No scrambling or exposure on this route, but the climb is sustained — pace yourself.",
+    "Cableway descent isn't guaranteed — check it's running before you rely on it."
+   ],
+   "descends_by_cableway": true
   },
   {
    "id": "route_platteklip_maclears",
@@ -451,7 +457,11 @@
     "computed": "2026-07-09"
    },
    "source_name": "Forge (forgesa.com) — Maclears Beacon via Platteklip Gorge route page",
-   "source_url": "https://www.forgesa.com/table-mountain-route/maclears-beacon-via-platteklip-gorge"
+   "source_url": "https://www.forgesa.com/table-mountain-route/maclears-beacon-via-platteklip-gorge",
+   "advice": [
+    "Carry enough water for the ascent — the gorge climb can get very warm.",
+    "Underfoot is a long series of rocky zig-zags in the gorge section."
+   ]
   },
   {
    "id": "route_india_venster",
@@ -483,7 +493,13 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hike Table Mountain (Tim Lundy) — India Venster route page",
-   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/india-venster/"
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/india-venster/",
+   "advice": [
+    "Descending India Venster isn't advised — go down by cableway or via Platteklip instead.",
+    "Narrow ledges add to the exposure; this route needs a decent head for heights.",
+    "A guide is worth considering if you're a less confident scrambler; not suited to significant fear of heights."
+   ],
+   "descends_by_cableway": true
   },
   {
    "id": "route_kasteelspoort",
@@ -515,7 +531,11 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hike Table Mountain (Tim Lundy) — Kasteelspoort route page",
-   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/kasteelspoort-hike/"
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/kasteelspoort-hike/",
+   "advice": [
+    "Steel ladders near Echo Valley add some exposure on the standard line; a no-exposure alternative exists.",
+    "The path dries off quickly after rain, unlike some of the mountain's other ravines."
+   ]
   },
   {
    "id": "route_pipe_track",
@@ -547,7 +567,11 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hike Addicts — The Pipe Track Hiking Route on Table Mountain",
-   "source_url": "https://www.hikeaddicts.com/our-hikes/pipe-track-walk/"
+   "source_url": "https://www.hikeaddicts.com/our-hikes/pipe-track-walk/",
+   "advice": [
+    "Starts at the grass patch where Kloof Nek Road meets Tafelberg Road.",
+    "Rock path transitioning to jeep track with stone steps — easy going, but it covers real distance, so come prepared."
+   ]
   },
   {
    "id": "route_skeleton_maclears",
@@ -579,7 +603,10 @@
     "computed": "2026-07-09"
    },
    "source_name": "SANBI Kirstenbosch — Smuts Track up Skeleton Gorge (safety-on-the-mountain page)",
-   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/"
+   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/",
+   "advice": [
+    "Garden gates open at 8am, so your start time is gated by Kirstenbosch's opening hours."
+   ]
   },
   {
    "id": "route_skeleton_nursery_loop",
@@ -611,7 +638,11 @@
     "computed": "2026-07-09"
    },
    "source_name": "SANBI Kirstenbosch — Smuts Track up Skeleton Gorge (safety-on-the-mountain page)",
-   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/"
+   "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/",
+   "advice": [
+    "Nursery Ravine, the descent, is steep and strenuous with mostly stepped path underfoot.",
+    "Starts inside Kirstenbosch at Gate 2 — entry fee and garden hours apply."
+   ]
   },
   {
    "id": "route_lions_head",
@@ -643,7 +674,12 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hike Table Mountain (Tim Lundy) — Lion's Head",
-   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/lions-head/"
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/lions-head/",
+   "advice": [
+    "A slightly longer alternative path avoids the most exposed climbing near the top, if you'd rather skip the chains.",
+    "The descent can be more challenging than the ascent — it demands balance and a head for heights.",
+    "Carry at least a litre of water — there's no water source on the mountain."
+   ]
   },
   {
    "id": "route_signal_hill",
@@ -675,7 +711,11 @@
     "computed": "2026-07-09"
    },
    "source_name": "Wander Cape Town — Signal Hill",
-   "source_url": "https://wandercapetown.com/adventures/signal-hill/"
+   "source_url": "https://wandercapetown.com/adventures/signal-hill/",
+   "advice": [
+    "A well-known, low-effort sunset spot — quieter than Lion's Head.",
+    "Paths criss-cross the hilltop through indigenous vegetation, rather than a single defined trail."
+   ]
   },
   {
    "id": "route_woodcutters_loop",
@@ -707,7 +747,10 @@
     "computed": "2026-07-09"
    },
    "source_name": "Hiking in the South — Woodcutters Trail",
-   "source_url": "https://www.hikinginthesouth.co.za/2024/09/Woodcutters%20Trail.html"
+   "source_url": "https://www.hikinginthesouth.co.za/2024/09/Woodcutters%20Trail.html",
+   "advice": [
+    "Paths are well-established and easy to follow throughout the loop."
+   ]
   },
   {
    "id": "route_newlands_ravine",
@@ -739,7 +782,12 @@
     "computed": "2026-07-09"
    },
    "source_name": "Extra Time Media — Newlands Forest hikes: Newlands Ravine route",
-   "source_url": "https://extratime.media/newlands-forest-hikes-newlands-ravine-route/"
+   "source_url": "https://extratime.media/newlands-forest-hikes-newlands-ravine-route/",
+   "advice": [
+    "Starts on the Contour Path opposite the wooden picnic spot above Newlands Forest Station.",
+    "Check a map before descending and keep GPS handy — several routes join at the Saddle.",
+    "Steep, slippery and rocky underfoot on the way down — not a first trail outing."
+   ]
   },
   {
    "id": "route_kloof_corner",
@@ -771,7 +819,64 @@
     "computed": "2026-07-09"
    },
    "source_name": "The Hiking Chronicles — Kloof Corner Hike from Tafelberg Road",
-   "source_url": "https://www.thehikingchronicles.com/hiking-trails/kloof-corner-hike-from-tafelberg-road"
+   "source_url": "https://www.thehikingchronicles.com/hiking-trails/kloof-corner-hike-from-tafelberg-road",
+   "advice": [
+    "The small Tafelberg Road parking area fills quickly around sunset in summer.",
+    "Bring a torch or headlamp if you'll be descending after sunset; bring water even though the route is short.",
+    "Can be windy at the lookout, even when it's calm below."
+   ]
+  }
+ ],
+ "route_conditions": [
+  {
+   "route_id": "route_platteklip",
+   "trigger": "heat",
+   "threshold": 27,
+   "line": "Exposed with full sun most of the day and little shelter — heat builds fast on this climb."
+  },
+  {
+   "route_id": "route_india_venster",
+   "trigger": "wind",
+   "threshold": 30,
+   "line": "Chains and exposed rock — postpone in strong wind; wind can also stop the cableway you'd descend by."
+  },
+  {
+   "route_id": "route_india_venster",
+   "trigger": "rain",
+   "line": "Wet rock here is dangerous — postpone if rain is forecast or has recently fallen."
+  },
+  {
+   "route_id": "route_kasteelspoort",
+   "trigger": "heat",
+   "threshold": 27,
+   "line": "No shade and nowhere to refill on the ravine climb — heat builds fast."
+  },
+  {
+   "route_id": "route_pipe_track",
+   "trigger": "heat",
+   "threshold": 27,
+   "line": "Limited shade along the Twelve Apostles flank — go early morning or evening in hot weather."
+  },
+  {
+   "route_id": "route_skeleton_maclears",
+   "trigger": "rain",
+   "line": "Very slippery in winter and after heavy rain — can be practically impassable straight after a heavy downpour."
+  },
+  {
+   "route_id": "route_skeleton_nursery_loop",
+   "trigger": "rain",
+   "line": "Seasonal streams make the Skeleton Gorge section slippery in winter and after rain."
+  },
+  {
+   "route_id": "route_lions_head",
+   "trigger": "wind",
+   "threshold": 30,
+   "line": "Ladders, staples and chains near the top turn risky in strong wind — consider postponing."
+  },
+  {
+   "route_id": "route_lions_head",
+   "trigger": "rain",
+   "line": "Chains and rock near the summit get slick in the rain — a guiding source flags rain as the most dangerous condition here."
   }
  ]
 }

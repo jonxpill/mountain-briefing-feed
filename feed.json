@@ -825,6 +825,81 @@
     "Bring a torch or headlamp if you'll be descending after sunset; bring water even though the route is short.",
     "Can be windy at the lookout, even when it's calm below."
    ]
+  },
+  {
+   "id": "route_summit_stroll",
+   "name": "Summit Stroll",
+   "area_id": "area_table_mountain",
+   "kind": "loop",
+   "start": {
+    "name": "Upper Cable Station",
+    "lat": -33.95763,
+    "lng": 18.40339
+   },
+   "end": {
+    "name": "Upper Cable Station",
+    "lat": -33.95763,
+    "lng": 18.40339
+   },
+   "geometry": "ids:926880871,26218387,1061798266,23750269,9000000024,9000000030",
+   "description": "Cableway up, then a near-level loop across the Table to Maclear's Beacon and back along the quieter plateau path — the summit without the climb; cableway down.",
+   "difficulty": "easy",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 5244,
+    "distance_total_m": 5244,
+    "ascent_m": 112,
+    "ascent_total_m": 112,
+    "est_min_lo": 90,
+    "est_min_hi": 115,
+    "elev_max_m": 1082,
+    "computed": "2026-09-30"
+   },
+   "source_name": "Hike Table Mountain (Tim Lundy) — Summit Stroll route page",
+   "source_url": "https://hiketablemountain.co.za/hiking-routes-table-mountain/summit-stroll/",
+   "advice": [
+    "Cableway both ways — if cloud or wind close it while you're up, the walk down is Platteklip Gorge: a steep stepped descent of around two hours.",
+    "One short stretch along the front rim has mild exposure; the inland path avoids it.",
+    "Heavy cloud or strong wind cancels this walk — the guide that runs it won't go up in either."
+   ],
+   "descends_by_cableway": true
+  },
+  {
+   "id": "route_apostles_corridor_loop",
+   "name": "Corridor Ravine / Kasteelspoort loop",
+   "area_id": "area_table_mountain",
+   "kind": "loop",
+   "start": {
+    "name": "Theresa Ave trailhead, Camps Bay",
+    "lat": -33.9666,
+    "lng": 18.3844
+   },
+   "end": {
+    "name": "Theresa Ave trailhead, Camps Bay",
+    "lat": -33.9666,
+    "lng": 18.3844
+   },
+   "geometry": "ids:9000000027,9000000029,450420758,450420760,212029278,71169139,212028569,1422832310,71172235,39498209,1422832308,1346147497,37229330,9000000028,450420759|name:Kasteelspoort Path",
+   "description": "The Twelve Apostles circuit — Pipe Track south to Corridor Ravine, up onto the Back Table, along the Apostles path and down Kasteelspoort to Theresa Avenue.",
+   "difficulty": "hard",
+   "difficulty_source": "computed",
+   "stats": {
+    "distance_m": 6633,
+    "distance_total_m": 6633,
+    "ascent_m": 865,
+    "ascent_total_m": 865,
+    "est_min_lo": 185,
+    "est_min_hi": 240,
+    "elev_max_m": 753,
+    "computed": "2026-09-30"
+   },
+   "source_name": "Ridgway Ramblers — Hike along the 12 Apostles on Table Mountain",
+   "source_url": "https://www.ridgwayramblers.co.za/blog/hike-along-the-12-apostles-on-table-mountain",
+   "advice": [
+    "About four hours for the circuit — the climb up Corridor Ravine and the descent of Kasteelspoort are the work; the Back Table between them is relatively flat.",
+    "Steel ladders near Echo Valley add some exposure on the standard Kasteelspoort line; a no-exposure alternative exists.",
+    "Four hours with a long climb — carry at least two litres."
+   ]
   }
  ],
  "route_conditions": [
@@ -877,6 +952,23 @@
    "route_id": "route_lions_head",
    "trigger": "rain",
    "line": "Chains and rock near the summit get slick in the rain — a guiding source flags rain as the most dangerous condition here."
+  },
+  {
+   "route_id": "route_summit_stroll",
+   "trigger": "wind",
+   "threshold": 30,
+   "line": "Strong wind stops the cableway — check it's running before you go up, and know that Platteklip Gorge is the walk down."
+  },
+  {
+   "route_id": "route_summit_stroll",
+   "trigger": "rain",
+   "line": "Heavy cloud or rain: the guide cancels this walk in either — the cableway may close and the plateau loses its views."
+  },
+  {
+   "route_id": "route_apostles_corridor_loop",
+   "trigger": "heat",
+   "threshold": 27,
+   "line": "A four-hour circuit with a long climb — heat builds on Corridor Ravine's open steps; start early and carry extra water."
   }
  ]
 }

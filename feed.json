@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-07-17T15:13:13+02:00",
+ "last_updated": "2026-09-30T15:09:03+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -606,7 +606,13 @@
    "source_url": "https://www.sanbi.org/gardens/kirstenboch/safety-on-the-mountain/smuts-track-up-skeleton-gorge/",
    "advice": [
     "Garden gates open at 8am, so your start time is gated by Kirstenbosch's opening hours."
-   ]
+   ],
+   "access": {
+    "name": "Kirstenbosch Gate 2",
+    "lat": -33.98648,
+    "lng": 18.432,
+    "note": "Enter Kirstenbosch Garden at Gate 2 — garden entry fee and hours apply (gates open 8am). The path starts at the top of the garden."
+   }
   },
   {
    "id": "route_skeleton_nursery_loop",
@@ -642,7 +648,13 @@
    "advice": [
     "Nursery Ravine, the descent, is steep and strenuous with mostly stepped path underfoot.",
     "Starts inside Kirstenbosch at Gate 2 — entry fee and garden hours apply."
-   ]
+   ],
+   "access": {
+    "name": "Kirstenbosch Gate 2",
+    "lat": -33.98648,
+    "lng": 18.432,
+    "note": "Enter Kirstenbosch Garden at Gate 2 — garden entry fee and hours apply (gates open 8am). The path starts at the top of the garden."
+   }
   },
   {
    "id": "route_lions_head",
@@ -862,7 +874,13 @@
     "One short stretch along the front rim has mild exposure; the inland path avoids it.",
     "Heavy cloud or strong wind cancels this walk — the guide that runs it won't go up in either."
    ],
-   "descends_by_cableway": true
+   "descends_by_cableway": true,
+   "access": {
+    "name": "Lower Cable Station, Tafelberg Rd",
+    "lat": -33.9481,
+    "lng": 18.4028,
+    "note": "Take the cable car up — the walk starts at the top station."
+   }
   },
   {
    "id": "route_apostles_corridor_loop",

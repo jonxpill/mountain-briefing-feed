@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-09-30T15:09:03+02:00",
+ "last_updated": "2026-10-01T10:57:54+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -988,5 +988,6 @@
    "threshold": 27,
    "line": "A four-hour circuit with a long climb — heat builds on Corridor Ravine's open steps; start early and carry extra water."
   }
- ]
+ ],
+ "notices": []
 }

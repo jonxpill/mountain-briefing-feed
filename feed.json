@@ -989,5 +989,22 @@
    "line": "A four-hour circuit with a long climb — heat builds on Corridor Ravine's open steps; start early and carry extra water."
   }
  ],
- "notices": []
+ "notices": [
+  {
+   "id": "ntc_5db01b12-b91a-4838-ad39-d63f5b02c5c6",
+   "headline": "Hikers warned of delays on popular Table Mountain routes",
+   "summary": "SANParks is inspecting and re-certifying ladders, staples and chains on India Venster, Lion's Head, Kloof Nek Corner, the Contour Path waterfall section and Llandudno/Judas Peak — sections may close briefly; expect waits of about 30–45 minutes per site and don't use the fixed equipment while work is under way.",
+   "scope": "route",
+   "area_ids": null,
+   "route_ids": [
+    "route_india_venster",
+    "route_lions_head"
+   ],
+   "from": "2026-10-06T00:00:00+02:00",
+   "until": "2026-10-09T23:59:59+02:00",
+   "confirmed_at": "2026-10-05T11:09:28+02:00",
+   "source_name": "The South African (relaying SANParks)",
+   "source_url": "https://www.thesouthafrican.com/lifestyle/hikers-warned-of-delays-on-popular-table-mountain-routes/"
+  }
+ ]
 }

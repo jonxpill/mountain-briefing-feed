@@ -1,13 +1,13 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-10-01T10:57:54+02:00",
+ "last_updated": "2026-10-05T05:37:00+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
    "name": "Table Mountain",
-   "advice": "Two stabbings on the lower Deer Park–Tafelberg Road slopes within a week (8 and ~13 Jul) — avoid the quieter lower-slope paths alone, especially early morning; patrols have been increased.",
-   "advice_updated": "2026-07-17T12:16:23+02:00",
+   "advice": "The quieter lower slopes between Deer Park and Tafelberg Road saw two stabbings in July — avoid them alone, especially early in the morning, and stick to busier paths.",
+   "advice_updated": "2026-10-05T11:08:12+02:00",
    "center": {
     "lat": -33.9628,
     "lng": 18.4098
@@ -18,7 +18,7 @@
    "id": "area_lions_head",
    "name": "Lion's Head",
    "advice": "Busy and sociable in daylight; for sunrise or sunset go up with company and head down before dark.",
-   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "advice_updated": "2026-10-05T11:08:12+02:00",
    "center": {
     "lat": -33.935,
     "lng": 18.3891
@@ -28,8 +28,8 @@
   {
    "id": "area_signal_hill",
    "name": "Signal Hill",
-   "advice": "Crime was reported here in recent weeks — go in a group and stick to the busier summit paths; the Lion's Head Jeep Track's autumn maintenance closure had not been confirmed lifted as of 9 Jul.",
-   "advice_updated": "2026-07-09T14:47:48+02:00",
+   "advice": "Busiest around sunset — go in a group, stick to the busier summit paths and head down before dark.",
+   "advice_updated": "2026-10-05T11:08:12+02:00",
    "center": {
     "lat": -33.917,
     "lng": 18.4039
@@ -39,8 +39,8 @@
   {
    "id": "area_newlands",
    "name": "Newlands Forest",
-   "advice": "A knife-threat was reported in the forest in late June — walk the lower forest in groups and leave nothing visible in your car.",
-   "advice_updated": "2026-07-07T12:00:00+02:00",
+   "advice": "Walk the lower forest in a group — a knife threat was reported there in June — and leave nothing visible in your car.",
+   "advice_updated": "2026-10-05T11:08:12+02:00",
    "center": {
     "lat": -33.972,
     "lng": 18.445

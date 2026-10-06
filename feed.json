@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-10-05T05:37:00+02:00",
+ "last_updated": "2026-10-06T05:36:37+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -302,7 +302,7 @@
    "geo_confidence": "medium",
    "occurred_at": "2026-07-13T12:00:00+02:00",
    "time_precision": "approx",
-   "summary": "Man mugged and stabbed near the Platteklip Wash Houses — the second stabbing on the lower slopes within a week; patrols increased.",
+   "summary": "Man stabbed near the Platteklip Wash Houses (Deer Park area). SANParks says the victim and two suspects were believed to know each other and regularly frequent the area; rangers located and assisted him afterwards. Patrols increased.",
    "source_name": "The South African",
    "source_url": "https://www.thesouthafrican.com/lifestyle/popular-table-mountain-hiking-route-hit-by-second-stabbing-in-days/",
    "confidence": "confirmed"

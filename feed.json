@@ -1,7 +1,7 @@
 {
  "schema_version": 1,
  "status": "approved by Jon 2026-07-07 (session review gate)",
- "last_updated": "2026-10-06T05:36:37+02:00",
+ "last_updated": "2026-10-12T05:36:39+02:00",
  "areas": [
   {
    "id": "area_table_mountain",
@@ -991,6 +991,37 @@
  ],
  "notices": [
   {
+   "id": "ntc_f1df00b7-24e3-48b5-82a9-03296333c6e5",
+   "headline": "Jeep Track at Lion's Head to temporarily close",
+   "summary": "SANParks closed the Jeep Track (the first stretch of the usual route from Signal Hill Road) from 20 April, expecting to reopen it on 20 June. We haven't found confirmation that it reopened. The Kramat trail from Signal Hill Road is the alternative SANParks named.",
+   "scope": "route",
+   "area_ids": null,
+   "route_ids": [
+    "route_lions_head"
+   ],
+   "from": "2026-04-20T00:00:00+02:00",
+   "until": null,
+   "confirmed_at": "2026-04-15T12:00:00+02:00",
+   "source_name": "SAnews (relaying SANParks)",
+   "source_url": "https://www.sanews.gov.za/south-africa/jeep-track-lions-head-temporarily-close"
+  },
+  {
+   "id": "ntc_c9acf318-c236-4599-a169-73865d3996ac",
+   "headline": "Table Mountain fire prompts precautionary evacuations",
+   "summary": "After a fire above Kloofnek Corner on 2 August, SANParks closed the Contour Path and surrounding trails between Kloofnek and the Lower Cableway Station until further notice. We haven't found a notice that they've reopened — check with SANParks before you go.",
+   "scope": "route",
+   "area_ids": null,
+   "route_ids": [
+    "route_kloof_corner",
+    "route_india_venster"
+   ],
+   "from": "2026-08-02T00:00:00+02:00",
+   "until": null,
+   "confirmed_at": "2026-08-02T18:00:00+02:00",
+   "source_name": "Time Out Cape Town (relaying SANParks)",
+   "source_url": "https://www.timeout.com/cape-town/news/precautionary-evacuations-as-fire-breaks-out-on-kloofnek-corner-of-table-mountain-national-park-080226"
+  },
+  {
    "id": "ntc_5db01b12-b91a-4838-ad39-d63f5b02c5c6",
    "headline": "Hikers warned of delays on popular Table Mountain routes",
    "summary": "SANParks is inspecting and re-certifying ladders, staples and chains on India Venster, Lion's Head, Kloof Nek Corner, the Contour Path waterfall section and Llandudno/Judas Peak — sections may close briefly; expect waits of about 30–45 minutes per site and don't use the fixed equipment while work is under way.",
@@ -1005,6 +1036,65 @@
    "confirmed_at": "2026-10-05T11:09:28+02:00",
    "source_name": "The South African (relaying SANParks)",
    "source_url": "https://www.thesouthafrican.com/lifestyle/hikers-warned-of-delays-on-popular-table-mountain-routes/"
+  }
+ ],
+ "bring": {
+  "items": [
+   "A jacket, even on a clear, warm day — the wind can change around the next bend.",
+   "Hat and sunscreen, on before you start.",
+   "About 2 litres of water each (3 if you sweat a lot) and more food than you think you'll need.",
+   "Proper shoes: trainers at least, hiking boots best — not flip-flops.",
+   "A fully charged phone. Visitors: check your roaming works. On the mountain, flight mode saves battery (GPS still works) — switch it off to call.",
+   "A head torch with spare batteries, in case the walk runs late."
+  ],
+  "source_name": "Wilderness Search and Rescue — Safety in the outdoors",
+  "source_url": "https://wsar.org.za/safety-outdoors/"
+ },
+ "seasons": [
+  {
+   "id": "season_southeaster",
+   "months": [
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3
+   ],
+   "title": "South-easter season",
+   "line": "The south-easter, a strong and often persistent wind, blows most from September to March. Carry a jacket however warm it is lower down.",
+   "source_name": "Wikipedia — Cape Doctor",
+   "source_url": "https://en.wikipedia.org/wiki/Cape_Doctor"
+  },
+  {
+   "id": "season_fire",
+   "months": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "title": "Fire season",
+   "line": "November to May is the high fire season. If you see a fire, call the park: 086 110 6417.",
+   "source_name": "SANParks — TMNP fire management",
+   "source_url": "https://www.sanparks.org/parks/table-mountain/fire-management"
+  },
+  {
+   "id": "season_winter",
+   "months": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "title": "Rainy season",
+   "line": "Winter brings most of the year's rain, and far more falls near the mountain than in the city. Expect wet, slippery paths and pack a waterproof.",
+   "source_name": "Wikipedia — Cape Town (climate)",
+   "source_url": "https://en.wikipedia.org/wiki/Cape_Town#Climate"
   }
  ]
 }
